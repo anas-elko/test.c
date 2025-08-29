@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+int main()
+{
+  int jour;
+
+  srand(time(NULL));
+
+  jour = rand() % 7 + 1;
+
+  switch(jour)
+  {
+    case 1 :
+    printf("lundi\n");
+    break;
+    case 2 :
+    printf("Mardi\n");
+    break;
+    case 3 :
+    printf("Mercredi\nn");
+    break;
+    case 4 :
+    printf("Jeudi\n");
+    break;
+    case 5 :
+    printf("Vendredi\n");
+    break;
+    case 6 :
+    printf("Samedi\n");
+    break;
+    case 7 :
+    printf("Dimanche\n");
+    break;
+  }
+  return 0;
+}
